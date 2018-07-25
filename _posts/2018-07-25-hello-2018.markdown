@@ -45,10 +45,12 @@ tags:
 
 >其他可用的github Pages方案如 HUGO
 
-* 1. 使用hugo 静态生成器创建博客 参考[https://blog.coderzh.com/2015/08/29/hugo/](https://blog.coderzh.com/2015/08/29/hugo/)
+1. 使用hugo 静态生成器创建博客 参考[https://blog.coderzh.com/2015/08/29/hugo/](https://blog.coderzh.com/2015/08/29/hugo/)
 2. hugo部署到github pages 参考[https://gohugo.io/hosting-and-deployment/hosting-on-github/](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
+
 HUGO的博文提交也支持markdown以及各种不同的主题定制。不同的是更新提交文章（.md）后，需要重新hugo运行生成静态页面到public文件夹。相对jekyll直接git commit的方式，就多了一个生成部署的步骤。暂时还没修改，先用的现有的这个blog
+
 ---
 
 
