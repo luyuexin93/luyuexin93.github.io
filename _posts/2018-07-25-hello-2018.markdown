@@ -22,7 +22,7 @@ tags:
 
 在这里还是感谢jekyll及hux提供的主题[--->模板在这里](https://github.com/Huxpro/huxblog-boilerplate)
 
-[跳过废话，直接看技术实现 ](#content)
+[github Pages相关内容](#content)
 
 
 <p id = "content"></p>
