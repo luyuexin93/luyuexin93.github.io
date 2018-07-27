@@ -17,12 +17,12 @@ tags:
 
 1.	**Docker**是什么
 一种轻量容器，提供了应用安全独立隔离的运行环境，方便快速的开发、部署、测试、迁移。
-•	Flexible: Even the most complex applications can be containerized.
-•	Lightweight: Containers leverage and share the host kernel.
-•	Interchangeable: You can deploy updates and upgrades on-the-fly.
-•	Portable: You can build locally, deploy to the cloud, and run anywhere.
-•	Scalable: You can increase and automatically distribute container replicas.
-•	Stackable: You can stack services vertically and on-the-fly.
+- 灵活（Flexible）: 支持部署多种应用
+- 轻量（Lightweight）: 容器技术可以高效利用和共享os内核.
+- 可交互（Interchangeable）: 快速部署更新
+- 可移植（Portable）: 本地开发，云端部署，移植性强
+- 可扩展（Scalable）: 快速复制，快速分发，可用于业务高可靠性
+- 可堆叠（Stackable）: 快速堆叠业务架构
    - 与虚拟机的区别：
 容器共享宿主机操作系统内核，使用独立进程，占用内存小，比虚拟机节省更多的系统资源
   
@@ -102,11 +102,20 @@ executable that produces the output you are currently reading.
 
 ```
 
-5.	基本使用
-1）构建生成或从docker hub 拉取基础镜像
-镜像管理
-docker images  (同docker image ls)
- 
-未完待补充
+5. 基本的步骤
+   - 安装docker运行环境
+   - 创建镜像
+     - 从docker hub 等镜像仓库站拉取基础镜像
+     - 编辑修改Dockerfile 后 build镜像（镜像二次构建）
+   - 部署应用到容器
+   - 分发应用容器形成集群（依赖镜像）
+   - 增加后端数据存储增加服务
+   - 部署应用到生产环境
+
+6. 其他相关
+>Kubernetes is a portable, extensible open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
+
+   - [kubernetes_zh](http://docs.kubernetes.org.cn/227.html)
+   - [kubernetes_en](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
 
