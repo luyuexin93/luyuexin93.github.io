@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Example Post"
-subtitle:   "不适合人类阅读，非常水的自我笔记"
+subtitle:   "不适合人类阅读，非常水的自我笔记  ---Huxpro"
 date:       2015-04-14
 author:     "Hux"
 header-img: "img/post-bg-unix-linux.jpg"
