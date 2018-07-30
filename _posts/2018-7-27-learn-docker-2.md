@@ -23,7 +23,7 @@ tags:
   - Service
   - Containers
 
-2. [Dockerfile](#Dockerfile)
+2. [Dockerfile](#dockerfile)
 3. [构建镜像\运行容器](#构建运行)
 4. [分发镜像](#分发镜像)
 5. [常用命令](#常用命令)
