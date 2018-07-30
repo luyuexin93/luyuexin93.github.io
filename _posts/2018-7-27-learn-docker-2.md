@@ -23,13 +23,13 @@ tags:
   - Service
   - Containers
 
-2. [Dockerfile](#使用Dockerfile创建docker容器)
-3. [构建镜像\运行容器](#构建镜像\运行容器  )
+2. [Dockerfile](#Dockerfile)
+3. [构建镜像\运行容器](#构建运行)
 4. [分发镜像](#分发镜像)
 5. [常用命令](#常用命令)
 
 ---
-## 使用Dockerfile创建docker容器
+## Dockerfile
 
 1.从Dockerfile定义容器 （自定义容器）
 简单概括就是从镜像仓库拉一个可用的运行环境（runtime）**基础镜像**（如python java tomcat nginx .etc），然后设定运行环境，拷贝应用到容器内相应目录，启动应用的命令行如（tomcat/bin/startup.sh  python3 app.py），这些过程均设定在**Dockerfile**中。
@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
 ```
 
-## 构建镜像运行容器   
+## 构建运行  
    - 构建镜像
 
 
