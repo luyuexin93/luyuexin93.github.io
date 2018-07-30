@@ -37,6 +37,7 @@ tags:
 2.基本步骤
   - 创建一个空的目录，用于存放Dockerfile 及生成镜像内容中包含的文件如应用war包,点py，点sh等
   - **创建DockerFIle**
+
 ```
 #官方给的示例，格式书写参考 
 #python 运行 flask 连接redis（redis并没有装）
