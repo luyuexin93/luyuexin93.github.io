@@ -4,7 +4,7 @@ SEOTitle: LucasNew | luyuexin93 Blog
 header-img: img/home-bg.jpg
 email: duncan93x@gmail.com
 description: "a static blog fork from hux"
-keyword: ""
+keyword: "读书 笔记"
 url: "https://luyuexin93.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -47,7 +47,7 @@ kramdown:
 
 
 # Disqus settings
- disqus_username: luyuexin93
+disqus_username: luyuexin93
 
 # Duoshuo settings
 # duoshuo_username: 
